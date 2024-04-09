@@ -1,0 +1,27 @@
+<MemoryGame>:
+    GridLayout:
+        cols: 4
+        padding: 10
+        spacing: 10
+        Label:
+            id: moves_label
+            text: "Moves: 0"
+            font_size: '24sp'
+            size_hint: None, None
+            size: self.texture_size
+            pos_hint: {'center_x': 0.5}
+        Button:
+            text: ""
+            font_size: '24sp'
+            size_hint_y: None
+            height: '120dp'
+            background_normal: 'assets/card_back.png'
+            background_down: 'assets/card_back.png'
+        Button:
+            text: ""
+            font_size: '24sp'
+            size_hint_y: None
+            height: '120dp'
+            background_normal: 'assets/card_back.png'
+            background_down: 'assets/card_back.png'
+        # Додайте сюди ще кнопки, які представляють картки
